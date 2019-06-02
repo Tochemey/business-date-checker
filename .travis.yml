@@ -17,7 +17,7 @@ before_install:
   - npm i -g npm@latest
 install:
   - npm ci
-  - npm run build:dev
+  - npm run build
 script:
   - npm run lint
   - npm test
