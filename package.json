@@ -1,0 +1,69 @@
+{
+  "name": "business-date-checker",
+  "version": "1.0.0",
+  "description": "Business Date Checker",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json -c tslint.json",
+    "test": "jest --verbose",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage",
+    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tochemey/business-date-checker.git"
+  },
+  "keywords": [
+    "Business",
+    "Date",
+    "Holidays",
+    "Weekend"
+  ],
+  "author": "Arsene T. Gandote <tochemey26@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tochemey/business-date-checker/issues"
+  },
+  "homepage": "https://github.com/Tochemey/business-date-checker#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.13",
+    "@types/moment-business": "^0.1.4",
+    "@types/moment-timezone": "^0.5.12",
+    "@types/node": "^12.0.4",
+    "jest": "^24.8.0",
+    "prettier": "^1.17.1",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.2.0",
+    "tsconfig-paths": "^3.8.0",
+    "tslint": "^5.17.0",
+    "typescript": "^3.5.1"
+  },
+  "dependencies": {
+    "date-holidays": "^1.4.0",
+    "i18n-iso-countries": "^4.1.0",
+    "moment": "^2.24.0",
+    "moment-business": "^3.0.1"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".spec.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node"
+  }
+}
