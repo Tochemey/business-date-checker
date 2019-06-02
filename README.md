@@ -1,6 +1,6 @@
 # Business Date Library
 
- <p align="center"><a href="http://nodejs.org" target="_blank">Node.js</a> library for business date manipulation and validation</p>
+ <p><a href="http://nodejs.org" target="_blank">Node.js</a> library for business date manipulation and validation.</p>
 
 [![Build Status](https://travis-ci.org/Tochemey/business-date-checker.svg?branch=master)](https://travis-ci.org/Tochemey/business-date-checker)
 
