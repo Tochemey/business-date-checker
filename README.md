@@ -1,5 +1,9 @@
 # Business Date Library
 
+ <p><a href="http://nodejs.org" target="_blank">Node.js</a> library for business date manipulation and validation.</p>
+
+[![Build Status](https://travis-ci.org/Tochemey/business-date-checker.svg?branch=master)](https://travis-ci.org/Tochemey/business-date-checker)
+
 This libary helps validate business days, weekend days, week days and holidays for various countries in the world. So far 144 countries are supported.
 
 The validation and parsing of date are done without timezone and dates without times.
