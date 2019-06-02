@@ -2,7 +2,7 @@
 
  <p align="center"><a href="http://nodejs.org" target="_blank">Node.js</a> library for business date manipulation and validation</p>
 
-[travis-image](https://travis-ci.org/Tochemey/business-date-checker.svg?branch=master) [travis-url](https://travis-ci.org/Tochemey/business-date-checker)
+https://travis-ci.org/Tochemey/business-date-checker.svg?branch=master
 
 This libary helps validate business days, weekend days, week days and holidays for various countries in the world. So far 144 countries are supported.
 
