@@ -8,6 +8,12 @@ This libary helps validate business days, weekend days, week days and holidays f
 
 The validation and parsing of date are done without timezone and dates without times.
 
+# Usage
+
+```bash
+npm i business-date-checker
+```
+
 # Features
 
 - Checking whether a date is a business date in a given country. _Business date is a date that is not a holiday nor a weekend day_
