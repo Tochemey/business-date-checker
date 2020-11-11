@@ -2,7 +2,7 @@
 
  <p><a href="http://nodejs.org" target="_blank">Node.js</a> Typescript library for business date manipulation and validation for <strong>backend applications</strong>.</p>
 
-[![Build Status](https://travis-ci.org/Tochemey/business-date-checker.svg?branch=master)](https://travis-ci.org/Tochemey/business-date-checker)
+![ci](https://github.com/Tochemey/business-date-checker/workflows/ci/badge.svg)
 
 This libary helps validate business days, weekend days, week days and holidays for various countries in the world. So far 144 countries are supported([Worldwide holidays library](https://github.com/commenthol/date-holidays)).
 
